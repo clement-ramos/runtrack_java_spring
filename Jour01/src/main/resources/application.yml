@@ -1,0 +1,10 @@
+# src/main/resources/application.yml
+
+# Configuration pour le profil dev (par défaut)
+spring:
+  profiles:
+    active: dev
+
+greeting:
+  dev: Hello World from Dev Profile
+  prod: Hello World from Prod Profile
